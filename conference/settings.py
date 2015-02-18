@@ -200,4 +200,4 @@ OEMBED_URL_FIX = (
 )
 
 # Max number of tickets to stop selling
-MAX_TICKETS = int(os.environ.get("MAX_TICKETS"))
+MAX_TICKETS = os.environ.get("MAX_TICKETS")
